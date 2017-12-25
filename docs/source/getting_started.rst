@@ -96,3 +96,39 @@ Yellow LED + resistor connected from GPIO (board) 21 to GND. Photo of circuit:
 
 .. |test-gpio-led| image:: test-gpio-led.jpg
 .. |gpio-numbering| image:: gpio-numbering.png
+
+
+Enable SSH server for Remote Access
+-----------------------------------
+
+Enable and start SSH server::
+
+        $ sudo systemctl enable ssh
+        $ sudo systemctl start ssh
+
+If you get errors about policykit then you probably has policykit installed::
+
+        $ sudo apt-get install policykit-1
+        $ sudo systemctl start ssh
+
+And remember to change password for ``pi``::
+
+        $ passwd
+
+
+Basic Git+GitHub Configuration
+------------------------------
+
+Basic user information::
+
+        $ git config --global user.name "FirstName LastName"
+        $ git config --global user.email "email@address"
+
+SSH keys setup::
+
+        $ ssh-keygen
+        $ cat ~/.ssh/id_rsa.pub
+
+And copy that public key to your GitHub account under settings/keys https://github.com/settings/keys
+
+
