@@ -106,7 +106,7 @@ Enable and start SSH server::
         $ sudo systemctl enable ssh
         $ sudo systemctl start ssh
 
-If you get errors about policykit then you probably has policykit installed::
+If you get errors about policykit then you probably has no policykit installed::
 
         $ sudo apt-get install policykit-1
         $ sudo systemctl start ssh
