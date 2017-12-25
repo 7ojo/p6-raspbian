@@ -3,14 +3,16 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-Welcome to Raspbian Rakudo Perl6's documentation!
-=================================================
+Wonders of Raspbian and Rakudo Perl 6
+=====================================
+
+Journey of playing around with Rakudo Perl 6 and Raspbian. Collection of notes to get fast start when starting from scratch.
 
 .. toctree::
    :maxdepth: 2
    :caption: Contents:
-
-
+   
+   getting_started
 
 Indices and tables
 ==================
