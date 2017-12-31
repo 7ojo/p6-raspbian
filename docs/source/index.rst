@@ -13,6 +13,7 @@ Journey of playing around with Rakudo Perl 6 and Raspbian. Collection of notes t
    :caption: Contents:
    
    getting_started
+   uln2803_chip
 
 Indices and tables
 ==================
